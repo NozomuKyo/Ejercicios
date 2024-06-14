@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitokuchi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="menu container">
+            <a href="#" class="logo">Hitokuchi</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="img/Menu_icon.png" class="menu-icon" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#coffee">Coffee</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+
+        <form>
+            <div class="search-box">
+                <i class='bx bx-search-alt'></i>
+                <input class="search-input" type="search" placeholder="Buscar">
+            </div>
+        </form>
+
+        </div>
+        <div class="header-content container">
+            <h1>Welcome!</h1>
+            <p>
+                We serve the richest coffee <br>
+                in the city!
+            </p>
+            <a href="#shop" class="btn-1">Order now</a>
+        </div>
+
+    </header>
+
+
+    <section class="Coffee">
+
+        <div class="quick-menu">
+            <div class="opc-1">
+                <img src="img/H_Coffee.png" alt="">
+                <h3>Hot Coffee</h3>
+            </div>
+            <div class="opc-2">
+                <img src="img/CO_Coffee.png" alt="">
+                <h3>Cold Coffee</h3>
+            </div>
+            <div class="opc-3">
+                <img src="img/CU_Coffee.png" alt="">
+                <h3>Cup Coffee</h3>
+            </div>
+            <div class="opc-4">
+                <img src="img/Cake.png" alt="">
+                <h3>Dessert</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Prueba de productos -->
+
+    <section class="products" id="products">
+
+        <h1 class="title">Our most popular</h1>
+        
+        <div class="tarjetas">
+
+            <div class="drink-1">
+                <img src="img/American_coffee.jpg" alt="">
+                <div class="contenido">
+                    <h3>American Coffee</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur <br>
+                        eiusmod tempor incididunt ut labore et
+                    </p>
+                </div>
+            </div>
+        
+            <div class="like">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUdJREFUSEvFVIFtwzAMEz9ZL9l6ydZL1l6y7pL1k/UTLgykzEnkxu5QzEDhwopJkZIFe/DCg/HtfwhIvpjZq5lpv7rKTwBn/Sf5ZmbPtXjpykoByS+/mLl38UMRZ0sJnABEUnOLFuCHgUiAT/579z2Aa/EjgFN8NClwW5T9FcBumR5JEUV8fyOu7w5hZ0nwMYDL21kGPV1GUiqPg9IzACn8tWgIcjwA7u6swoULgFFlqeDbPd6VRepUIHuEM9mcWTT51wPu7RsWpQoiqBbb96rwJlD2Wro/tvTMb5JR6C4SB9ddvY8p+4wgWlF7E8kCfNXi2UtuJtkCXymIohaPqqqkBbxK4B1RVdIKfpOgRuIqo6DpWCnbe/PVJnap+OMYz2bW8u1sEiRKdNQEvmlRmU3hu+bVaprWXn2Tgt6R0VWDv4B3WXQv0Q/nKasZvoCMvwAAAABJRU5ErkJggg=="/>
+                <a href="#shop" class="heart"></a>
+             </div>
+
+            <div class="Buy">
+                <div class="price">$20.00</div>
+                <a href="#shop" class="btn-2">Order now</a>
+             </div>
+
+
+             <div class="drink-2">
+                <img src="img/Iced_coffee.jpg" alt="">
+                <div class="contenido">
+                    <h3>Iced Coffee</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur <br>
+                        eiusmod tempor incididunt ut labore et
+                    </p>
+                </div>
+            </div>
+        
+            <div class="like2">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUdJREFUSEvFVIFtwzAMEz9ZL9l6ydZL1l6y7pL1k/UTLgykzEnkxu5QzEDhwopJkZIFe/DCg/HtfwhIvpjZq5lpv7rKTwBn/Sf5ZmbPtXjpykoByS+/mLl38UMRZ0sJnABEUnOLFuCHgUiAT/579z2Aa/EjgFN8NClwW5T9FcBumR5JEUV8fyOu7w5hZ0nwMYDL21kGPV1GUiqPg9IzACn8tWgIcjwA7u6swoULgFFlqeDbPd6VRepUIHuEM9mcWTT51wPu7RsWpQoiqBbb96rwJlD2Wro/tvTMb5JR6C4SB9ddvY8p+4wgWlF7E8kCfNXi2UtuJtkCXymIohaPqqqkBbxK4B1RVdIKfpOgRuIqo6DpWCnbe/PVJnap+OMYz2bW8u1sEiRKdNQEvmlRmU3hu+bVaprWXn2Tgt6R0VWDv4B3WXQv0Q/nKasZvoCMvwAAAABJRU5ErkJggg=="/>
+                <a href="#shop" class="heart"></a>
+             </div>
+
+            <div class="Buy2">
+                <div class="price">$25.00</div>
+                <a href="#shop" class="btn-2-1">Order now</a>
+             </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         </div>
+
+
+    </section>
+
+<!-- Aquí termina productos-->
+</body>
+
+</html>
